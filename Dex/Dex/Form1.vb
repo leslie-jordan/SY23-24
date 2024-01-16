@@ -39,7 +39,7 @@ Public Class Form1
         If IO.File.Exists("data.txt") Then
             Dim infile As New StreamReader("data.txt")
             records(0) = infile.ReadLine
-            records(1) = infile.ReadLine
+            'records(1) = infile.ReadLine
             infile.Close()
         End If
     End Sub

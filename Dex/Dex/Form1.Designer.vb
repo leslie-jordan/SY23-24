@@ -55,9 +55,9 @@ Partial Class Form1
         'ToolStrip1
         '
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 30)
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 28)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(800, 31)
+        Me.ToolStrip1.Size = New System.Drawing.Size(800, 25)
         Me.ToolStrip1.TabIndex = 2
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -100,7 +100,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShoesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
         Me.MenuStrip1.TabIndex = 7
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -108,8 +108,8 @@ Partial Class Form1
         '
         Me.ShoesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.SaveToolStripMenuItem})
         Me.ShoesToolStripMenuItem.Name = "ShoesToolStripMenuItem"
-        Me.ShoesToolStripMenuItem.Size = New System.Drawing.Size(62, 26)
-        Me.ShoesToolStripMenuItem.Text = "Shoes"
+        Me.ShoesToolStripMenuItem.Size = New System.Drawing.Size(51, 24)
+        Me.ShoesToolStripMenuItem.Text = "Cats"
         '
         'NewToolStripMenuItem
         '
