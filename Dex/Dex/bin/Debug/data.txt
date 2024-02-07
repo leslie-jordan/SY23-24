@@ -1,1 +1,10 @@
-nanco|pac-man|$4m|1982|atari console|C:\Users\lajor965\Downloads\download.jfif
+British Shorthair|12-14|7-17|15-20|$800-$3000|C:\Users\lajor965\Downloads\British-Shorthair-kitten-cute-squat-3000x2000.jpg
+Persian|1-15|7-12|12-17|$1300-$5000|C:\Users\lajor965\Downloads\1_T2V86LI5j23LuUEae3KE-Q.jpg
+Maine Coon|10-16|12-18|10-13|$1000-$2000|C:\Users\lajor965\Downloads\download.jfif
+Himalayan|10-12|8-15|9-15|$200-$2500|C:\Users\lajor965\Downloads\lulu-the-himalayan-kitten-cat.jpg
+Ragdoll|9-11|10-20|13-18|$400-$2500|C:\Users\lajor965\Downloads\ragdoll-before-you-buy.jpg
+Birman|8-10|10-12|9-15|$700-$1000|C:\Users\lajor965\Downloads\birman-kitten-sitting-on-carpet-258816339-2000-d59ca0db1b684e299ecf3c54a8a5faf6.jpg
+Siamese|8-10|6-14|15-20|$200-$1000|C:\Users\lajor965\Downloads\siamese-kitten_Esin-Deniz-Shutterstock-800x533.jpg
+Javanese|9-12|5-10|10-15|$1500-$2500|C:\Users\lajor965\Downloads\download (1).jfif
+Norwegian Forest Cat|9-12|12-16|14-16|$400-$1500|C:\Users\lajor965\Downloads\images (1).jfif
+Bengal|13-16|8-15|12-16|$1500-$3000|C:\Users\lajor965\Downloads\images.jfif
