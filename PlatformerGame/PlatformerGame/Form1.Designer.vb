@@ -36,6 +36,10 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.mousePictureBox = New System.Windows.Forms.PictureBox()
+        Me.dogPictureBox = New System.Windows.Forms.PictureBox()
+        Me.coinPictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.coinPictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.picPlayer, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAir, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picGround, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -43,6 +47,9 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.mousePictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dogPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.coinPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.coinPictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picPlayer
@@ -129,6 +136,7 @@ Partial Class Form1
         '
         'mousePictureBox
         '
+        Me.mousePictureBox.BackColor = System.Drawing.Color.Transparent
         Me.mousePictureBox.Image = CType(resources.GetObject("mousePictureBox.Image"), System.Drawing.Image)
         Me.mousePictureBox.Location = New System.Drawing.Point(155, 12)
         Me.mousePictureBox.Name = "mousePictureBox"
@@ -138,11 +146,60 @@ Partial Class Form1
         Me.mousePictureBox.TabStop = False
         Me.mousePictureBox.Tag = "win"
         '
+        'dogPictureBox
+        '
+        Me.dogPictureBox.BackColor = System.Drawing.Color.Transparent
+        Me.dogPictureBox.Image = CType(resources.GetObject("dogPictureBox.Image"), System.Drawing.Image)
+        Me.dogPictureBox.Location = New System.Drawing.Point(517, 488)
+        Me.dogPictureBox.Name = "dogPictureBox"
+        Me.dogPictureBox.Size = New System.Drawing.Size(108, 106)
+        Me.dogPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.dogPictureBox.TabIndex = 7
+        Me.dogPictureBox.TabStop = False
+        Me.dogPictureBox.Tag = "lose"
+        '
+        'coinPictureBox1
+        '
+        Me.coinPictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.coinPictureBox1.Image = CType(resources.GetObject("coinPictureBox1.Image"), System.Drawing.Image)
+        Me.coinPictureBox1.Location = New System.Drawing.Point(349, 202)
+        Me.coinPictureBox1.Name = "coinPictureBox1"
+        Me.coinPictureBox1.Size = New System.Drawing.Size(70, 73)
+        Me.coinPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.coinPictureBox1.TabIndex = 8
+        Me.coinPictureBox1.TabStop = False
+        Me.coinPictureBox1.Tag = "add1"
+        '
+        'coinPictureBox2
+        '
+        Me.coinPictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.coinPictureBox2.Image = CType(resources.GetObject("coinPictureBox2.Image"), System.Drawing.Image)
+        Me.coinPictureBox2.Location = New System.Drawing.Point(707, 260)
+        Me.coinPictureBox2.Name = "coinPictureBox2"
+        Me.coinPictureBox2.Size = New System.Drawing.Size(70, 73)
+        Me.coinPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.coinPictureBox2.TabIndex = 9
+        Me.coinPictureBox2.TabStop = False
+        Me.coinPictureBox2.Tag = "add2"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(1009, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(48, 16)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "Label1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1069, 648)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.coinPictureBox2)
+        Me.Controls.Add(Me.coinPictureBox1)
+        Me.Controls.Add(Me.dogPictureBox)
         Me.Controls.Add(Me.mousePictureBox)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
@@ -159,7 +216,11 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.mousePictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dogPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.coinPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.coinPictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -175,4 +236,8 @@ Partial Class Form1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents mousePictureBox As PictureBox
+    Friend WithEvents dogPictureBox As PictureBox
+    Friend WithEvents coinPictureBox1 As PictureBox
+    Friend WithEvents coinPictureBox2 As PictureBox
+    Friend WithEvents Label1 As Label
 End Class

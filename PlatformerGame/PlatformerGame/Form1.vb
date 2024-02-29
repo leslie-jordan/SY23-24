@@ -57,9 +57,14 @@
                         timerGravity.Stop()
                     End If
                 End If
-                If b.Tag = "win" Then
+                If b.Tag = "lose" Then
                     If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
-                        mousePictureBox.Visible = False
+                        picPlayer.Visible = False
+                    End If
+                    If b.Tag = "win" Then
+                        If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                            mousePictureBox.Visible = False
+                        End If
                     End If
                 End If
             End If
