@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DBPractice", "DBPractice\DBPractice.vbproj", "{4B573E95-11BA-471B-8856-4035DD67784E}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DBPractice", "DBPractice\DBPractice.vbproj", "{7E9E5F1C-DA02-45EB-BE26-B4DAF42BC058}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4B573E95-11BA-471B-8856-4035DD67784E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B573E95-11BA-471B-8856-4035DD67784E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B573E95-11BA-471B-8856-4035DD67784E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B573E95-11BA-471B-8856-4035DD67784E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9E5F1C-DA02-45EB-BE26-B4DAF42BC058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9E5F1C-DA02-45EB-BE26-B4DAF42BC058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9E5F1C-DA02-45EB-BE26-B4DAF42BC058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9E5F1C-DA02-45EB-BE26-B4DAF42BC058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B6B7BB91-DF48-49F9-9099-3C6A9822D8AA}
+		SolutionGuid = {48466EDA-5360-4724-A884-AA944D19C279}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\bin\Debug\WindowsFormAppFeb5.exe.config
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\bin\Debug\WindowsFormAppFeb5.exe
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\bin\Debug\WindowsFormAppFeb5.pdb
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\bin\Debug\WindowsFormAppFeb5.xml
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.vbproj.AssemblyReference.cache
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.vbproj.SuggestedBindingRedirects.cache
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.Form1.resources
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.Resources.resources
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.vbproj.GenerateResource.cache
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.vbproj.CoreCompileInputs.cache
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.exe
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.xml
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.pdb
+C:\Users\lajor965\Desktop\SY23-34\WindowsFormAppFeb5\WindowsFormAppFeb5\obj\Debug\WindowsFormAppFeb5.ClickerControl.resources

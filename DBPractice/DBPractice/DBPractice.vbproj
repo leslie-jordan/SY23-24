@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B573E95-11BA-471B-8856-4035DD67784E}</ProjectGuid>
+    <ProjectGuid>{7E9E5F1C-DA02-45EB-BE26-B4DAF42BC058}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>DBPractice.My.MyApplication</StartupObject>
     <RootNamespace>DBPractice</RootNamespace>
