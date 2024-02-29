@@ -35,12 +35,14 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.mousePictureBox = New System.Windows.Forms.PictureBox()
         CType(Me.picPlayer, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAir, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picGround, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.mousePictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picPlayer
@@ -125,11 +127,23 @@ Partial Class Form1
         Me.PictureBox3.TabStop = False
         Me.PictureBox3.Tag = "bound"
         '
+        'mousePictureBox
+        '
+        Me.mousePictureBox.Image = CType(resources.GetObject("mousePictureBox.Image"), System.Drawing.Image)
+        Me.mousePictureBox.Location = New System.Drawing.Point(155, 12)
+        Me.mousePictureBox.Name = "mousePictureBox"
+        Me.mousePictureBox.Size = New System.Drawing.Size(94, 94)
+        Me.mousePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.mousePictureBox.TabIndex = 6
+        Me.mousePictureBox.TabStop = False
+        Me.mousePictureBox.Tag = "win"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1069, 648)
+        Me.Controls.Add(Me.mousePictureBox)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
@@ -144,6 +158,7 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.mousePictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -159,4 +174,5 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents mousePictureBox As PictureBox
 End Class
