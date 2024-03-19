@@ -1,7 +1,8 @@
 ﻿Public Class Form1
     Dim movespeed As Integer = 10
     Dim isjumping As Boolean
-    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
+    Dim t As Integer
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
         Select Case e.KeyCode
             Case Keys.Right
                 timerRight.Start()
@@ -17,7 +18,7 @@
         picPlayer.Left += 15
     End Sub
 
-    Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles Me.KeyUp
+    Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyUp
         Select Case e.KeyCode
             Case Keys.Right
                 timerRight.Stop()
@@ -31,6 +32,7 @@
 
     Private Sub timerLeft_Tick(sender As Object, e As EventArgs) Handles timerLeft.Tick
         picPlayer.Left -= movespeed
+        TextBox1.Select()
     End Sub
 
     Private Sub timerUp_Tick(sender As Object, e As EventArgs) Handles timerUp.Tick
@@ -57,21 +59,47 @@
                         timerGravity.Stop()
                     End If
                 End If
+                If b.Tag = "coin1" Then
+                    If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                        t = 1
+                        PictureBox5.Visible = False
+                    End If
+                End If
+                If b.Tag = "coin2" Then
+                    If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                        t = 2
+                        PictureBox1.Visible = False
+                    End If
+                End If
+                If b.Tag = "win" Then
+                    If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                        mousePictureBox.Visible = False
+                        Mover1.speed = 0
+                        Mover2.speed = 0
+                        Mover3.speed = 0
+                        Mover4.speed = 0
+                        Me.BackColor = Color.Green
+                        t = 10
+                    End If
+                End If
                 If b.Tag = "lose" Then
                     If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
                         picPlayer.Visible = False
-                    End If
-                    If b.Tag = "win" Then
-                        If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
-                            mousePictureBox.Visible = False
-                        End If
+                        Mover1.speed = 0
+                        Mover2.speed = 0
+                        Mover3.speed = 0
+                        Mover4.speed = 0
+                        Me.BackColor = Color.Red
+                        t = 0
                     End If
                 End If
             End If
         Next
+        Label1.Text = t
     End Sub
 
     Private Sub timerGravity_Tick(sender As Object, e As EventArgs) Handles timerGravity.Tick
         picPlayer.Top += movespeed
     End Sub
+
 End Class

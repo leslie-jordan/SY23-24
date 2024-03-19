@@ -24,3 +24,4 @@ C:\Users\lajor965\Desktop\SY23-24\PlatformerGame\PlatformerGame\obj\Debug\Platfo
 C:\Users\lajor965\Desktop\SY23-24\PlatformerGame\PlatformerGame\obj\Debug\PlatformerGame.exe
 C:\Users\lajor965\Desktop\SY23-24\PlatformerGame\PlatformerGame\obj\Debug\PlatformerGame.xml
 C:\Users\lajor965\Desktop\SY23-24\PlatformerGame\PlatformerGame\obj\Debug\PlatformerGame.pdb
+C:\Users\lajor965\Desktop\SY23-24\PlatformerGame\PlatformerGame\obj\Debug\PlatformerGame.Mover.resources
