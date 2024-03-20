@@ -105,13 +105,4 @@
             CheckBox9.Checked = False
         End If
     End Sub
-
-    Private Sub CheckBox13_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox13.CheckedChanged
-        If CheckBox13.Checked = True Then
-            TextBox4.Text = CheckBox13.Text
-            CheckBox14.Checked = False
-            CheckBox15.Checked = False
-
-        End If
-    End Sub
 End Class
