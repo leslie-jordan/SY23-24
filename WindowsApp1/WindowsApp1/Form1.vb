@@ -71,11 +71,38 @@
         End If
     End Sub
     Private Sub CheckBox9_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox9.CheckedChanged
-        If CheckBox5.Checked = True Then
-            TextBox2.Text = CheckBox5.Text
-            CheckBox6.Checked = False
-            CheckBox7.Checked = False
-            CheckBox8.Checked = False
+        If CheckBox9.Checked = True Then
+            TextBox3.Text = CheckBox9.Text
+            CheckBox10.Checked = False
+            CheckBox11.Checked = False
+            CheckBox12.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox10_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox10.CheckedChanged
+        If CheckBox10.Checked = True Then
+            TextBox3.Text = CheckBox10.Text
+            CheckBox9.Checked = False
+            CheckBox11.Checked = False
+            CheckBox12.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox11_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox11.CheckedChanged
+        If CheckBox11.Checked = True Then
+            TextBox3.Text = CheckBox11.Text
+            CheckBox10.Checked = False
+            CheckBox9.Checked = False
+            CheckBox12.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox12_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox12.CheckedChanged
+        If CheckBox12.Checked = True Then
+            TextBox3.Text = CheckBox12.Text
+            CheckBox10.Checked = False
+            CheckBox11.Checked = False
+            CheckBox9.Checked = False
         End If
     End Sub
 End Class
