@@ -114,4 +114,67 @@
             CheckBox16.Checked = False
         End If
     End Sub
+
+    Private Sub CheckBox14_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox14.CheckedChanged
+        If CheckBox14.Checked = True Then
+            TextBox4.Text = CheckBox14.Text
+            CheckBox13.Checked = False
+            CheckBox15.Checked = False
+            CheckBox16.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox15_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox15.CheckedChanged
+        If CheckBox15.Checked = True Then
+            TextBox4.Text = CheckBox15.Text
+            CheckBox14.Checked = False
+            CheckBox13.Checked = False
+            CheckBox16.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox16_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox16.CheckedChanged
+        If CheckBox16.Checked = True Then
+            TextBox4.Text = CheckBox16.Text
+            CheckBox14.Checked = False
+            CheckBox15.Checked = False
+            CheckBox13.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox17_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox17.CheckedChanged
+        If CheckBox17.Checked = True Then
+            TextBox5.Text = CheckBox17.Text
+            CheckBox18.Checked = False
+            CheckBox19.Checked = False
+            CheckBox20.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox18_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox18.CheckedChanged
+        If CheckBox18.Checked = True Then
+            TextBox5.Text = CheckBox18.Text
+            CheckBox17.Checked = False
+            CheckBox19.Checked = False
+            CheckBox20.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox19_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox19.CheckedChanged
+        If CheckBox19.Checked = True Then
+            TextBox5.Text = CheckBox19.Text
+            CheckBox18.Checked = False
+            CheckBox17.Checked = False
+            CheckBox20.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBox20_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox20.CheckedChanged
+        If CheckBox20.Checked = True Then
+            TextBox5.Text = CheckBox20.Text
+            CheckBox18.Checked = False
+            CheckBox19.Checked = False
+            CheckBox17.Checked = False
+        End If
+    End Sub
 End Class
