@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Form2
     Dim breed As Integer
     Dim color As Integer
     Dim pattern As Integer
@@ -34,7 +34,6 @@
             breed = 550
         End If
     End Sub
-
     Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox4.CheckedChanged
         If CheckBox4.Checked = True Then
             TextBox1.Text = CheckBox4.Text
@@ -214,7 +213,7 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Form2.Show()
+        Form1.Show()
         Me.Hide()
     End Sub
 End Class
