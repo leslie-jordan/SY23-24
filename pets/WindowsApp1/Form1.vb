@@ -1,19 +1,27 @@
 ﻿Public Class Form1
+    Dim breed As Integer
+    Dim color As Integer
+    Dim pattern As Integer
+    Dim weight As Integer
+    Dim age As Integer
+    Dim t As Integer
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         If CheckBox1.Checked = True Then
             TextBox1.Text = CheckBox1.Text
             CheckBox2.Checked = False
             CheckBox3.Checked = False
             CheckBox4.Checked = False
+            breed = 500
         End If
     End Sub
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
         If CheckBox2.Checked = True Then
             TextBox1.Text = CheckBox2.Text
-            CheckBox1.Checked = False
             CheckBox3.Checked = False
+            CheckBox1.Checked = False
             CheckBox4.Checked = False
+            breed = 600
         End If
     End Sub
 
@@ -23,6 +31,7 @@
             CheckBox2.Checked = False
             CheckBox1.Checked = False
             CheckBox4.Checked = False
+            breed = 550
         End If
     End Sub
 
@@ -30,8 +39,9 @@
         If CheckBox4.Checked = True Then
             TextBox1.Text = CheckBox4.Text
             CheckBox2.Checked = False
-            CheckBox3.Checked = False
             CheckBox1.Checked = False
+            CheckBox3.Checked = False
+            breed = 700
         End If
     End Sub
 
@@ -41,6 +51,7 @@
             CheckBox6.Checked = False
             CheckBox7.Checked = False
             CheckBox8.Checked = False
+            color = 100
         End If
     End Sub
 
@@ -50,6 +61,7 @@
             CheckBox5.Checked = False
             CheckBox7.Checked = False
             CheckBox8.Checked = False
+            color = 150
         End If
     End Sub
 
@@ -59,6 +71,7 @@
             CheckBox6.Checked = False
             CheckBox5.Checked = False
             CheckBox8.Checked = False
+            color = 300
         End If
     End Sub
 
@@ -68,6 +81,7 @@
             CheckBox6.Checked = False
             CheckBox7.Checked = False
             CheckBox5.Checked = False
+            color = 200
         End If
     End Sub
     Private Sub CheckBox9_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox9.CheckedChanged
@@ -76,6 +90,7 @@
             CheckBox10.Checked = False
             CheckBox11.Checked = False
             CheckBox12.Checked = False
+            pattern = 400
         End If
     End Sub
 
@@ -85,6 +100,7 @@
             CheckBox9.Checked = False
             CheckBox11.Checked = False
             CheckBox12.Checked = False
+            pattern = 100
         End If
     End Sub
 
@@ -94,6 +110,7 @@
             CheckBox10.Checked = False
             CheckBox9.Checked = False
             CheckBox12.Checked = False
+            pattern = 200
         End If
     End Sub
 
@@ -103,6 +120,7 @@
             CheckBox10.Checked = False
             CheckBox11.Checked = False
             CheckBox9.Checked = False
+            pattern = 300
         End If
     End Sub
 
@@ -112,6 +130,7 @@
             CheckBox14.Checked = False
             CheckBox15.Checked = False
             CheckBox16.Checked = False
+            weight = 400
         End If
     End Sub
 
@@ -121,6 +140,7 @@
             CheckBox13.Checked = False
             CheckBox15.Checked = False
             CheckBox16.Checked = False
+            weight = 300
         End If
     End Sub
 
@@ -130,6 +150,7 @@
             CheckBox14.Checked = False
             CheckBox13.Checked = False
             CheckBox16.Checked = False
+            weight = 200
         End If
     End Sub
 
@@ -139,6 +160,7 @@
             CheckBox14.Checked = False
             CheckBox15.Checked = False
             CheckBox13.Checked = False
+            weight = 100
         End If
     End Sub
 
@@ -148,6 +170,7 @@
             CheckBox18.Checked = False
             CheckBox19.Checked = False
             CheckBox20.Checked = False
+            age = 400
         End If
     End Sub
 
@@ -157,6 +180,7 @@
             CheckBox17.Checked = False
             CheckBox19.Checked = False
             CheckBox20.Checked = False
+            age = 300
         End If
     End Sub
 
@@ -166,6 +190,7 @@
             CheckBox18.Checked = False
             CheckBox17.Checked = False
             CheckBox20.Checked = False
+            age = 200
         End If
     End Sub
 
@@ -175,6 +200,12 @@
             CheckBox18.Checked = False
             CheckBox19.Checked = False
             CheckBox17.Checked = False
+            age = 100
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        t = breed + color + pattern + weight + age
+        TextBox6.Text = t
     End Sub
 End Class
