@@ -24,7 +24,7 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.UserControl11 = New WindowsApp1.UserControl1()
+        Me.UserControl1 = New WindowsApp1.UserControl1()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
@@ -65,6 +65,7 @@ Partial Class Form2
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -87,12 +88,13 @@ Partial Class Form2
         Me.Label12.Text = "Cat Not Available"
         Me.Label12.Visible = False
         '
-        'UserControl11
+        'UserControl1
         '
-        Me.UserControl11.Location = New System.Drawing.Point(372, 291)
-        Me.UserControl11.Name = "UserControl11"
-        Me.UserControl11.Size = New System.Drawing.Size(243, 163)
-        Me.UserControl11.TabIndex = 94
+        Me.UserControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.UserControl1.Location = New System.Drawing.Point(396, 299)
+        Me.UserControl1.Name = "UserControl1"
+        Me.UserControl1.Size = New System.Drawing.Size(243, 144)
+        Me.UserControl1.TabIndex = 94
         '
         'Button2
         '
@@ -105,6 +107,7 @@ Partial Class Form2
         '
         'PictureBox1
         '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox1.Location = New System.Drawing.Point(645, 299)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(138, 144)
@@ -461,14 +464,25 @@ Partial Class Form2
         Me.Label1.TabIndex = 54
         Me.Label1.Text = "Breed:"
         '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Poor Richard", 28.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(6, 4)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(104, 53)
+        Me.Label13.TabIndex = 97
+        Me.Label13.Text = "Cats"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.UserControl11)
+        Me.Controls.Add(Me.UserControl1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TextBox6)
@@ -519,7 +533,7 @@ Partial Class Form2
 
     Friend WithEvents Button3 As Button
     Friend WithEvents Label12 As Label
-    Friend WithEvents UserControl11 As UserControl1
+    Friend WithEvents UserControl1 As UserControl1
     Friend WithEvents Button2 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox6 As TextBox
@@ -560,4 +574,5 @@ Partial Class Form2
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label13 As Label
 End Class
