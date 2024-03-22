@@ -40,26 +40,26 @@ Partial Class Form2
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.kittenCheckBox = New System.Windows.Forms.CheckBox()
+        Me.youngCheckBox = New System.Windows.Forms.CheckBox()
+        Me.adultCheckBox = New System.Windows.Forms.CheckBox()
+        Me.seniorCheckBox = New System.Windows.Forms.CheckBox()
+        Me.CheckBox15to20 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox10to15 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox5to10 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox1to5 = New System.Windows.Forms.CheckBox()
+        Me.tricolorCheckBox = New System.Windows.Forms.CheckBox()
+        Me.bicolorCheckBox = New System.Windows.Forms.CheckBox()
+        Me.stripedCheckBox = New System.Windows.Forms.CheckBox()
+        Me.solidCheckBox = New System.Windows.Forms.CheckBox()
+        Me.brownCheckBox = New System.Windows.Forms.CheckBox()
+        Me.whiteCheckBox = New System.Windows.Forms.CheckBox()
+        Me.greyCheckBox = New System.Windows.Forms.CheckBox()
+        Me.blackCheckBox = New System.Windows.Forms.CheckBox()
+        Me.himalayanCheckBox = New System.Windows.Forms.CheckBox()
+        Me.ragdollCheckBox = New System.Windows.Forms.CheckBox()
+        Me.persianCheckBox = New System.Windows.Forms.CheckBox()
+        Me.mainecoonCheckBox = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -111,6 +111,7 @@ Partial Class Form2
         Me.PictureBox1.Location = New System.Drawing.Point(645, 299)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(138, 144)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 92
         Me.PictureBox1.TabStop = False
         '
@@ -219,205 +220,205 @@ Partial Class Form2
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.TabIndex = 79
         '
-        'CheckBox17
+        'kittenCheckBox
         '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(66, 247)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(61, 20)
-        Me.CheckBox17.TabIndex = 78
-        Me.CheckBox17.Text = "Kitten"
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.kittenCheckBox.AutoSize = True
+        Me.kittenCheckBox.Location = New System.Drawing.Point(66, 247)
+        Me.kittenCheckBox.Name = "kittenCheckBox"
+        Me.kittenCheckBox.Size = New System.Drawing.Size(61, 20)
+        Me.kittenCheckBox.TabIndex = 78
+        Me.kittenCheckBox.Text = "Kitten"
+        Me.kittenCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox18
+        'youngCheckBox
         '
-        Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.Location = New System.Drawing.Point(179, 247)
-        Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(68, 20)
-        Me.CheckBox18.TabIndex = 77
-        Me.CheckBox18.Text = "Young"
-        Me.CheckBox18.UseVisualStyleBackColor = True
+        Me.youngCheckBox.AutoSize = True
+        Me.youngCheckBox.Location = New System.Drawing.Point(179, 247)
+        Me.youngCheckBox.Name = "youngCheckBox"
+        Me.youngCheckBox.Size = New System.Drawing.Size(68, 20)
+        Me.youngCheckBox.TabIndex = 77
+        Me.youngCheckBox.Text = "Young"
+        Me.youngCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox19
+        'adultCheckBox
         '
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.Location = New System.Drawing.Point(317, 248)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(59, 20)
-        Me.CheckBox19.TabIndex = 76
-        Me.CheckBox19.Text = "Adult"
-        Me.CheckBox19.UseVisualStyleBackColor = True
+        Me.adultCheckBox.AutoSize = True
+        Me.adultCheckBox.Location = New System.Drawing.Point(317, 248)
+        Me.adultCheckBox.Name = "adultCheckBox"
+        Me.adultCheckBox.Size = New System.Drawing.Size(59, 20)
+        Me.adultCheckBox.TabIndex = 76
+        Me.adultCheckBox.Text = "Adult"
+        Me.adultCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox20
+        'seniorCheckBox
         '
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Location = New System.Drawing.Point(440, 248)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(68, 20)
-        Me.CheckBox20.TabIndex = 75
-        Me.CheckBox20.Text = "Senior"
-        Me.CheckBox20.UseVisualStyleBackColor = True
+        Me.seniorCheckBox.AutoSize = True
+        Me.seniorCheckBox.Location = New System.Drawing.Point(440, 248)
+        Me.seniorCheckBox.Name = "seniorCheckBox"
+        Me.seniorCheckBox.Size = New System.Drawing.Size(68, 20)
+        Me.seniorCheckBox.TabIndex = 75
+        Me.seniorCheckBox.Text = "Senior"
+        Me.seniorCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox16
+        'CheckBox15to20
         '
-        Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(442, 209)
-        Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(61, 20)
-        Me.CheckBox16.TabIndex = 74
-        Me.CheckBox16.Text = "15-20"
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.CheckBox15to20.AutoSize = True
+        Me.CheckBox15to20.Location = New System.Drawing.Point(442, 209)
+        Me.CheckBox15to20.Name = "CheckBox15to20"
+        Me.CheckBox15to20.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox15to20.TabIndex = 74
+        Me.CheckBox15to20.Text = "15-20"
+        Me.CheckBox15to20.UseVisualStyleBackColor = True
         '
-        'CheckBox15
+        'CheckBox10to15
         '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(317, 209)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(61, 20)
-        Me.CheckBox15.TabIndex = 73
-        Me.CheckBox15.Text = "10-15"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.CheckBox10to15.AutoSize = True
+        Me.CheckBox10to15.Location = New System.Drawing.Point(317, 209)
+        Me.CheckBox10to15.Name = "CheckBox10to15"
+        Me.CheckBox10to15.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox10to15.TabIndex = 73
+        Me.CheckBox10to15.Text = "10-15"
+        Me.CheckBox10to15.UseVisualStyleBackColor = True
         '
-        'CheckBox14
+        'CheckBox5to10
         '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(179, 209)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(54, 20)
-        Me.CheckBox14.TabIndex = 72
-        Me.CheckBox14.Text = "5-10"
-        Me.CheckBox14.UseVisualStyleBackColor = True
+        Me.CheckBox5to10.AutoSize = True
+        Me.CheckBox5to10.Location = New System.Drawing.Point(179, 209)
+        Me.CheckBox5to10.Name = "CheckBox5to10"
+        Me.CheckBox5to10.Size = New System.Drawing.Size(54, 20)
+        Me.CheckBox5to10.TabIndex = 72
+        Me.CheckBox5to10.Text = "5-10"
+        Me.CheckBox5to10.UseVisualStyleBackColor = True
         '
-        'CheckBox13
+        'CheckBox1to5
         '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(66, 209)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(47, 20)
-        Me.CheckBox13.TabIndex = 71
-        Me.CheckBox13.Text = "1-5"
-        Me.CheckBox13.UseVisualStyleBackColor = True
+        Me.CheckBox1to5.AutoSize = True
+        Me.CheckBox1to5.Location = New System.Drawing.Point(66, 209)
+        Me.CheckBox1to5.Name = "CheckBox1to5"
+        Me.CheckBox1to5.Size = New System.Drawing.Size(47, 20)
+        Me.CheckBox1to5.TabIndex = 71
+        Me.CheckBox1to5.Text = "1-5"
+        Me.CheckBox1to5.UseVisualStyleBackColor = True
         '
-        'CheckBox12
+        'tricolorCheckBox
         '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(442, 170)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(75, 20)
-        Me.CheckBox12.TabIndex = 70
-        Me.CheckBox12.Text = "Tricolor"
-        Me.CheckBox12.UseVisualStyleBackColor = True
+        Me.tricolorCheckBox.AutoSize = True
+        Me.tricolorCheckBox.Location = New System.Drawing.Point(442, 170)
+        Me.tricolorCheckBox.Name = "tricolorCheckBox"
+        Me.tricolorCheckBox.Size = New System.Drawing.Size(75, 20)
+        Me.tricolorCheckBox.TabIndex = 70
+        Me.tricolorCheckBox.Text = "Tricolor"
+        Me.tricolorCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox11
+        'bicolorCheckBox
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(317, 170)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(71, 20)
-        Me.CheckBox11.TabIndex = 69
-        Me.CheckBox11.Text = "Bicolor"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.bicolorCheckBox.AutoSize = True
+        Me.bicolorCheckBox.Location = New System.Drawing.Point(317, 170)
+        Me.bicolorCheckBox.Name = "bicolorCheckBox"
+        Me.bicolorCheckBox.Size = New System.Drawing.Size(71, 20)
+        Me.bicolorCheckBox.TabIndex = 69
+        Me.bicolorCheckBox.Text = "Bicolor"
+        Me.bicolorCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox10
+        'stripedCheckBox
         '
-        Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(179, 170)
-        Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(72, 20)
-        Me.CheckBox10.TabIndex = 68
-        Me.CheckBox10.Text = "Striped"
-        Me.CheckBox10.UseVisualStyleBackColor = True
+        Me.stripedCheckBox.AutoSize = True
+        Me.stripedCheckBox.Location = New System.Drawing.Point(179, 170)
+        Me.stripedCheckBox.Name = "stripedCheckBox"
+        Me.stripedCheckBox.Size = New System.Drawing.Size(72, 20)
+        Me.stripedCheckBox.TabIndex = 68
+        Me.stripedCheckBox.Text = "Striped"
+        Me.stripedCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox9
+        'solidCheckBox
         '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(66, 170)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(60, 20)
-        Me.CheckBox9.TabIndex = 67
-        Me.CheckBox9.Text = "Solid"
-        Me.CheckBox9.UseVisualStyleBackColor = True
+        Me.solidCheckBox.AutoSize = True
+        Me.solidCheckBox.Location = New System.Drawing.Point(66, 170)
+        Me.solidCheckBox.Name = "solidCheckBox"
+        Me.solidCheckBox.Size = New System.Drawing.Size(60, 20)
+        Me.solidCheckBox.TabIndex = 67
+        Me.solidCheckBox.Text = "Solid"
+        Me.solidCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox8
+        'brownCheckBox
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(442, 131)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(66, 20)
-        Me.CheckBox8.TabIndex = 66
-        Me.CheckBox8.Text = "Brown"
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.brownCheckBox.AutoSize = True
+        Me.brownCheckBox.Location = New System.Drawing.Point(442, 131)
+        Me.brownCheckBox.Name = "brownCheckBox"
+        Me.brownCheckBox.Size = New System.Drawing.Size(66, 20)
+        Me.brownCheckBox.TabIndex = 66
+        Me.brownCheckBox.Text = "Brown"
+        Me.brownCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox7
+        'whiteCheckBox
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(317, 131)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(63, 20)
-        Me.CheckBox7.TabIndex = 65
-        Me.CheckBox7.Text = "White"
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.whiteCheckBox.AutoSize = True
+        Me.whiteCheckBox.Location = New System.Drawing.Point(317, 131)
+        Me.whiteCheckBox.Name = "whiteCheckBox"
+        Me.whiteCheckBox.Size = New System.Drawing.Size(63, 20)
+        Me.whiteCheckBox.TabIndex = 65
+        Me.whiteCheckBox.Text = "White"
+        Me.whiteCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox6
+        'greyCheckBox
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(179, 131)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(58, 20)
-        Me.CheckBox6.TabIndex = 64
-        Me.CheckBox6.Text = "Grey"
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.greyCheckBox.AutoSize = True
+        Me.greyCheckBox.Location = New System.Drawing.Point(179, 131)
+        Me.greyCheckBox.Name = "greyCheckBox"
+        Me.greyCheckBox.Size = New System.Drawing.Size(58, 20)
+        Me.greyCheckBox.TabIndex = 64
+        Me.greyCheckBox.Text = "Grey"
+        Me.greyCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox5
+        'blackCheckBox
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(66, 131)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(63, 20)
-        Me.CheckBox5.TabIndex = 63
-        Me.CheckBox5.Text = "Black"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.blackCheckBox.AutoSize = True
+        Me.blackCheckBox.Location = New System.Drawing.Point(66, 131)
+        Me.blackCheckBox.Name = "blackCheckBox"
+        Me.blackCheckBox.Size = New System.Drawing.Size(63, 20)
+        Me.blackCheckBox.TabIndex = 63
+        Me.blackCheckBox.Text = "Black"
+        Me.blackCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox4
+        'himalayanCheckBox
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(442, 94)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(94, 20)
-        Me.CheckBox4.TabIndex = 62
-        Me.CheckBox4.Text = "Himalayan"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.himalayanCheckBox.AutoSize = True
+        Me.himalayanCheckBox.Location = New System.Drawing.Point(442, 94)
+        Me.himalayanCheckBox.Name = "himalayanCheckBox"
+        Me.himalayanCheckBox.Size = New System.Drawing.Size(94, 20)
+        Me.himalayanCheckBox.TabIndex = 62
+        Me.himalayanCheckBox.Text = "Himalayan"
+        Me.himalayanCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox3
+        'ragdollCheckBox
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(317, 93)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(77, 20)
-        Me.CheckBox3.TabIndex = 61
-        Me.CheckBox3.Text = "Ragdoll"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.ragdollCheckBox.AutoSize = True
+        Me.ragdollCheckBox.Location = New System.Drawing.Point(317, 93)
+        Me.ragdollCheckBox.Name = "ragdollCheckBox"
+        Me.ragdollCheckBox.Size = New System.Drawing.Size(77, 20)
+        Me.ragdollCheckBox.TabIndex = 61
+        Me.ragdollCheckBox.Text = "Ragdoll"
+        Me.ragdollCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'persianCheckBox
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(179, 94)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(75, 20)
-        Me.CheckBox2.TabIndex = 60
-        Me.CheckBox2.Text = "Persian"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.persianCheckBox.AutoSize = True
+        Me.persianCheckBox.Location = New System.Drawing.Point(179, 94)
+        Me.persianCheckBox.Name = "persianCheckBox"
+        Me.persianCheckBox.Size = New System.Drawing.Size(75, 20)
+        Me.persianCheckBox.TabIndex = 60
+        Me.persianCheckBox.Text = "Persian"
+        Me.persianCheckBox.UseVisualStyleBackColor = True
         '
-        'CheckBox1
+        'mainecoonCheckBox
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(66, 94)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(101, 20)
-        Me.CheckBox1.TabIndex = 59
-        Me.CheckBox1.Text = "Maine Coon"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.mainecoonCheckBox.AutoSize = True
+        Me.mainecoonCheckBox.Location = New System.Drawing.Point(66, 94)
+        Me.mainecoonCheckBox.Name = "mainecoonCheckBox"
+        Me.mainecoonCheckBox.Size = New System.Drawing.Size(101, 20)
+        Me.mainecoonCheckBox.TabIndex = 59
+        Me.mainecoonCheckBox.Text = "Maine Coon"
+        Me.mainecoonCheckBox.UseVisualStyleBackColor = True
         '
         'Label5
         '
@@ -498,26 +499,26 @@ Partial Class Form2
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.CheckBox17)
-        Me.Controls.Add(Me.CheckBox18)
-        Me.Controls.Add(Me.CheckBox19)
-        Me.Controls.Add(Me.CheckBox20)
-        Me.Controls.Add(Me.CheckBox16)
-        Me.Controls.Add(Me.CheckBox15)
-        Me.Controls.Add(Me.CheckBox14)
-        Me.Controls.Add(Me.CheckBox13)
-        Me.Controls.Add(Me.CheckBox12)
-        Me.Controls.Add(Me.CheckBox11)
-        Me.Controls.Add(Me.CheckBox10)
-        Me.Controls.Add(Me.CheckBox9)
-        Me.Controls.Add(Me.CheckBox8)
-        Me.Controls.Add(Me.CheckBox7)
-        Me.Controls.Add(Me.CheckBox6)
-        Me.Controls.Add(Me.CheckBox5)
-        Me.Controls.Add(Me.CheckBox4)
-        Me.Controls.Add(Me.CheckBox3)
-        Me.Controls.Add(Me.CheckBox2)
-        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.kittenCheckBox)
+        Me.Controls.Add(Me.youngCheckBox)
+        Me.Controls.Add(Me.adultCheckBox)
+        Me.Controls.Add(Me.seniorCheckBox)
+        Me.Controls.Add(Me.CheckBox15to20)
+        Me.Controls.Add(Me.CheckBox10to15)
+        Me.Controls.Add(Me.CheckBox5to10)
+        Me.Controls.Add(Me.CheckBox1to5)
+        Me.Controls.Add(Me.tricolorCheckBox)
+        Me.Controls.Add(Me.bicolorCheckBox)
+        Me.Controls.Add(Me.stripedCheckBox)
+        Me.Controls.Add(Me.solidCheckBox)
+        Me.Controls.Add(Me.brownCheckBox)
+        Me.Controls.Add(Me.whiteCheckBox)
+        Me.Controls.Add(Me.greyCheckBox)
+        Me.Controls.Add(Me.blackCheckBox)
+        Me.Controls.Add(Me.himalayanCheckBox)
+        Me.Controls.Add(Me.ragdollCheckBox)
+        Me.Controls.Add(Me.persianCheckBox)
+        Me.Controls.Add(Me.mainecoonCheckBox)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -549,26 +550,26 @@ Partial Class Form2
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents CheckBox17 As CheckBox
-    Friend WithEvents CheckBox18 As CheckBox
-    Friend WithEvents CheckBox19 As CheckBox
-    Friend WithEvents CheckBox20 As CheckBox
-    Friend WithEvents CheckBox16 As CheckBox
-    Friend WithEvents CheckBox15 As CheckBox
-    Friend WithEvents CheckBox14 As CheckBox
-    Friend WithEvents CheckBox13 As CheckBox
-    Friend WithEvents CheckBox12 As CheckBox
-    Friend WithEvents CheckBox11 As CheckBox
-    Friend WithEvents CheckBox10 As CheckBox
-    Friend WithEvents CheckBox9 As CheckBox
-    Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents kittenCheckBox As CheckBox
+    Friend WithEvents youngCheckBox As CheckBox
+    Friend WithEvents adultCheckBox As CheckBox
+    Friend WithEvents seniorCheckBox As CheckBox
+    Friend WithEvents CheckBox15to20 As CheckBox
+    Friend WithEvents CheckBox10to15 As CheckBox
+    Friend WithEvents CheckBox5to10 As CheckBox
+    Friend WithEvents CheckBox1to5 As CheckBox
+    Friend WithEvents tricolorCheckBox As CheckBox
+    Friend WithEvents bicolorCheckBox As CheckBox
+    Friend WithEvents stripedCheckBox As CheckBox
+    Friend WithEvents solidCheckBox As CheckBox
+    Friend WithEvents brownCheckBox As CheckBox
+    Friend WithEvents whiteCheckBox As CheckBox
+    Friend WithEvents greyCheckBox As CheckBox
+    Friend WithEvents blackCheckBox As CheckBox
+    Friend WithEvents himalayanCheckBox As CheckBox
+    Friend WithEvents ragdollCheckBox As CheckBox
+    Friend WithEvents persianCheckBox As CheckBox
+    Friend WithEvents mainecoonCheckBox As CheckBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
