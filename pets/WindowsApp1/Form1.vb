@@ -5,201 +5,201 @@
     Dim weight As Integer
     Dim age As Integer
     Dim t As Integer
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
-        If CheckBox1.Checked = True Then
-            TextBox1.Text = CheckBox1.Text
-            CheckBox2.Checked = False
-            CheckBox3.Checked = False
-            CheckBox4.Checked = False
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles chihuahuaCheckBox.CheckedChanged
+        If chihuahuaCheckBox.Checked = True Then
+            TextBox1.Text = chihuahuaCheckBox.Text
+            germanshepardCheckBox.Checked = False
+            frenchbulldogCheckBox.Checked = False
+            goldenretrieverCheckBox.Checked = False
             breed = 500
         End If
     End Sub
 
-    Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
-        If CheckBox2.Checked = True Then
-            TextBox1.Text = CheckBox2.Text
-            CheckBox3.Checked = False
-            CheckBox1.Checked = False
-            CheckBox4.Checked = False
+    Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles germanshepardCheckBox.CheckedChanged
+        If germanshepardCheckBox.Checked = True Then
+            TextBox1.Text = germanshepardCheckBox.Text
+            frenchbulldogCheckBox.Checked = False
+            chihuahuaCheckBox.Checked = False
+            goldenretrieverCheckBox.Checked = False
             breed = 600
         End If
     End Sub
 
-    Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
-        If CheckBox3.Checked = True Then
-            TextBox1.Text = CheckBox3.Text
-            CheckBox2.Checked = False
-            CheckBox1.Checked = False
-            CheckBox4.Checked = False
+    Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles frenchbulldogCheckBox.CheckedChanged
+        If frenchbulldogCheckBox.Checked = True Then
+            TextBox1.Text = frenchbulldogCheckBox.Text
+            germanshepardCheckBox.Checked = False
+            chihuahuaCheckBox.Checked = False
+            goldenretrieverCheckBox.Checked = False
             breed = 550
         End If
     End Sub
 
-    Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox4.CheckedChanged
-        If CheckBox4.Checked = True Then
-            TextBox1.Text = CheckBox4.Text
-            CheckBox2.Checked = False
-            CheckBox1.Checked = False
-            CheckBox3.Checked = False
+    Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles goldenretrieverCheckBox.CheckedChanged
+        If goldenretrieverCheckBox.Checked = True Then
+            TextBox1.Text = goldenretrieverCheckBox.Text
+            germanshepardCheckBox.Checked = False
+            chihuahuaCheckBox.Checked = False
+            frenchbulldogCheckBox.Checked = False
             breed = 700
         End If
     End Sub
 
-    Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox5.CheckedChanged
-        If CheckBox5.Checked = True Then
-            TextBox2.Text = CheckBox5.Text
-            CheckBox6.Checked = False
-            CheckBox7.Checked = False
-            CheckBox8.Checked = False
+    Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs) Handles blackCheckBox.CheckedChanged
+        If blackCheckBox.Checked = True Then
+            TextBox2.Text = blackCheckBox.Text
+            greyCheckBox.Checked = False
+            whiteCheckBox.Checked = False
+            brownCheckBox.Checked = False
             color = 100
         End If
     End Sub
 
-    Private Sub CheckBox6_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox6.CheckedChanged
-        If CheckBox6.Checked = True Then
-            TextBox2.Text = CheckBox6.Text
-            CheckBox5.Checked = False
-            CheckBox7.Checked = False
-            CheckBox8.Checked = False
+    Private Sub CheckBox6_CheckedChanged(sender As Object, e As EventArgs) Handles greyCheckBox.CheckedChanged
+        If greyCheckBox.Checked = True Then
+            TextBox2.Text = greyCheckBox.Text
+            blackCheckBox.Checked = False
+            whiteCheckBox.Checked = False
+            brownCheckBox.Checked = False
             color = 150
         End If
     End Sub
 
-    Private Sub CheckBox7_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox7.CheckedChanged
-        If CheckBox7.Checked = True Then
-            TextBox2.Text = CheckBox7.Text
-            CheckBox6.Checked = False
-            CheckBox5.Checked = False
-            CheckBox8.Checked = False
+    Private Sub CheckBox7_CheckedChanged(sender As Object, e As EventArgs) Handles whiteCheckBox.CheckedChanged
+        If whiteCheckBox.Checked = True Then
+            TextBox2.Text = whiteCheckBox.Text
+            greyCheckBox.Checked = False
+            blackCheckBox.Checked = False
+            brownCheckBox.Checked = False
             color = 300
         End If
     End Sub
 
-    Private Sub CheckBox8_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox8.CheckedChanged
-        If CheckBox8.Checked = True Then
-            TextBox2.Text = CheckBox8.Text
-            CheckBox6.Checked = False
-            CheckBox7.Checked = False
-            CheckBox5.Checked = False
+    Private Sub CheckBox8_CheckedChanged(sender As Object, e As EventArgs) Handles brownCheckBox.CheckedChanged
+        If brownCheckBox.Checked = True Then
+            TextBox2.Text = brownCheckBox.Text
+            greyCheckBox.Checked = False
+            whiteCheckBox.Checked = False
+            blackCheckBox.Checked = False
             color = 200
         End If
     End Sub
-    Private Sub CheckBox9_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox9.CheckedChanged
-        If CheckBox9.Checked = True Then
-            TextBox3.Text = CheckBox9.Text
-            CheckBox10.Checked = False
-            CheckBox11.Checked = False
-            CheckBox12.Checked = False
+    Private Sub CheckBox9_CheckedChanged(sender As Object, e As EventArgs) Handles solidCheckBox.CheckedChanged
+        If solidCheckBox.Checked = True Then
+            TextBox3.Text = solidCheckBox.Text
+            spottedCheckBox.Checked = False
+            bicolorCheckBox.Checked = False
+            tricolorCheckBox.Checked = False
             pattern = 400
         End If
     End Sub
 
-    Private Sub CheckBox10_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox10.CheckedChanged
-        If CheckBox10.Checked = True Then
-            TextBox3.Text = CheckBox10.Text
-            CheckBox9.Checked = False
-            CheckBox11.Checked = False
-            CheckBox12.Checked = False
+    Private Sub CheckBox10_CheckedChanged(sender As Object, e As EventArgs) Handles spottedCheckBox.CheckedChanged
+        If spottedCheckBox.Checked = True Then
+            TextBox3.Text = spottedCheckBox.Text
+            solidCheckBox.Checked = False
+            bicolorCheckBox.Checked = False
+            tricolorCheckBox.Checked = False
             pattern = 100
         End If
     End Sub
 
-    Private Sub CheckBox11_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox11.CheckedChanged
-        If CheckBox11.Checked = True Then
-            TextBox3.Text = CheckBox11.Text
-            CheckBox10.Checked = False
-            CheckBox9.Checked = False
-            CheckBox12.Checked = False
+    Private Sub CheckBox11_CheckedChanged(sender As Object, e As EventArgs) Handles bicolorCheckBox.CheckedChanged
+        If bicolorCheckBox.Checked = True Then
+            TextBox3.Text = bicolorCheckBox.Text
+            spottedCheckBox.Checked = False
+            solidCheckBox.Checked = False
+            tricolorCheckBox.Checked = False
             pattern = 200
         End If
     End Sub
 
-    Private Sub CheckBox12_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox12.CheckedChanged
-        If CheckBox12.Checked = True Then
-            TextBox3.Text = CheckBox12.Text
-            CheckBox10.Checked = False
-            CheckBox11.Checked = False
-            CheckBox9.Checked = False
+    Private Sub CheckBox12_CheckedChanged(sender As Object, e As EventArgs) Handles tricolorCheckBox.CheckedChanged
+        If tricolorCheckBox.Checked = True Then
+            TextBox3.Text = tricolorCheckBox.Text
+            spottedCheckBox.Checked = False
+            bicolorCheckBox.Checked = False
+            solidCheckBox.Checked = False
             pattern = 300
         End If
     End Sub
 
-    Private Sub CheckBox13_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox13.CheckedChanged
-        If CheckBox13.Checked = True Then
-            TextBox4.Text = CheckBox13.Text
-            CheckBox14.Checked = False
-            CheckBox15.Checked = False
-            CheckBox16.Checked = False
+    Private Sub CheckBox13_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1to10.CheckedChanged
+        If CheckBox1to10.Checked = True Then
+            TextBox4.Text = CheckBox1to10.Text
+            CheckBox10to40.Checked = False
+            CheckBox40to70.Checked = False
+            CheckBox70plus.Checked = False
             weight = 400
         End If
     End Sub
 
-    Private Sub CheckBox14_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox14.CheckedChanged
-        If CheckBox14.Checked = True Then
-            TextBox4.Text = CheckBox14.Text
-            CheckBox13.Checked = False
-            CheckBox15.Checked = False
-            CheckBox16.Checked = False
+    Private Sub CheckBox14_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox10to40.CheckedChanged
+        If CheckBox10to40.Checked = True Then
+            TextBox4.Text = CheckBox10to40.Text
+            CheckBox1to10.Checked = False
+            CheckBox40to70.Checked = False
+            CheckBox70plus.Checked = False
             weight = 300
         End If
     End Sub
 
-    Private Sub CheckBox15_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox15.CheckedChanged
-        If CheckBox15.Checked = True Then
-            TextBox4.Text = CheckBox15.Text
-            CheckBox14.Checked = False
-            CheckBox13.Checked = False
-            CheckBox16.Checked = False
+    Private Sub CheckBox15_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox40to70.CheckedChanged
+        If CheckBox40to70.Checked = True Then
+            TextBox4.Text = CheckBox40to70.Text
+            CheckBox10to40.Checked = False
+            CheckBox1to10.Checked = False
+            CheckBox70plus.Checked = False
             weight = 200
         End If
     End Sub
 
-    Private Sub CheckBox16_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox16.CheckedChanged
-        If CheckBox16.Checked = True Then
-            TextBox4.Text = CheckBox16.Text
-            CheckBox14.Checked = False
-            CheckBox15.Checked = False
-            CheckBox13.Checked = False
+    Private Sub CheckBox16_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox70plus.CheckedChanged
+        If CheckBox70plus.Checked = True Then
+            TextBox4.Text = CheckBox70plus.Text
+            CheckBox10to40.Checked = False
+            CheckBox40to70.Checked = False
+            CheckBox1to10.Checked = False
             weight = 100
         End If
     End Sub
 
-    Private Sub CheckBox17_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox17.CheckedChanged
-        If CheckBox17.Checked = True Then
-            TextBox5.Text = CheckBox17.Text
-            CheckBox18.Checked = False
-            CheckBox19.Checked = False
-            CheckBox20.Checked = False
+    Private Sub CheckBox17_CheckedChanged(sender As Object, e As EventArgs) Handles puppyCheckBox.CheckedChanged
+        If puppyCheckBox.Checked = True Then
+            TextBox5.Text = puppyCheckBox.Text
+            youngCheckBox.Checked = False
+            adultCheckBox.Checked = False
+            seniorCheckBox.Checked = False
             age = 400
         End If
     End Sub
 
-    Private Sub CheckBox18_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox18.CheckedChanged
-        If CheckBox18.Checked = True Then
-            TextBox5.Text = CheckBox18.Text
-            CheckBox17.Checked = False
-            CheckBox19.Checked = False
-            CheckBox20.Checked = False
+    Private Sub CheckBox18_CheckedChanged(sender As Object, e As EventArgs) Handles youngCheckBox.CheckedChanged
+        If youngCheckBox.Checked = True Then
+            TextBox5.Text = youngCheckBox.Text
+            puppyCheckBox.Checked = False
+            adultCheckBox.Checked = False
+            seniorCheckBox.Checked = False
             age = 300
         End If
     End Sub
 
-    Private Sub CheckBox19_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox19.CheckedChanged
-        If CheckBox19.Checked = True Then
-            TextBox5.Text = CheckBox19.Text
-            CheckBox18.Checked = False
-            CheckBox17.Checked = False
-            CheckBox20.Checked = False
+    Private Sub CheckBox19_CheckedChanged(sender As Object, e As EventArgs) Handles adultCheckBox.CheckedChanged
+        If adultCheckBox.Checked = True Then
+            TextBox5.Text = adultCheckBox.Text
+            youngCheckBox.Checked = False
+            puppyCheckBox.Checked = False
+            seniorCheckBox.Checked = False
             age = 200
         End If
     End Sub
 
-    Private Sub CheckBox20_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox20.CheckedChanged
-        If CheckBox20.Checked = True Then
-            TextBox5.Text = CheckBox20.Text
-            CheckBox18.Checked = False
-            CheckBox19.Checked = False
-            CheckBox17.Checked = False
+    Private Sub CheckBox20_CheckedChanged(sender As Object, e As EventArgs) Handles seniorCheckBox.CheckedChanged
+        If seniorCheckBox.Checked = True Then
+            TextBox5.Text = seniorCheckBox.Text
+            youngCheckBox.Checked = False
+            adultCheckBox.Checked = False
+            puppyCheckBox.Checked = False
             age = 100
         End If
     End Sub
@@ -211,6 +211,18 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         UserControl1.Visible = True
+        If chihuahuaCheckBox.Checked And blackCheckBox.Checked = True Then
+            PictureBox1.Image = Image.FromFile("C:\2.jpg")
+        End If
+        If germanshepardCheckBox.Checked And greyCheckBox.Checked = True Then
+            PictureBox1.Image = Image.FromFile("C:\2.jpg")
+        End If
+        If frenchbulldogCheckBox.Checked And whiteCheckBox.Checked = True Then
+            PictureBox1.Image = Image.FromFile("C:\2.jpg")
+        End If
+        If goldenretrieverCheckBox.Checked And brownCheckBox.Checked = True Then
+            PictureBox1.Image = Image.FromFile("C:\2.jpg")
+        End If
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
