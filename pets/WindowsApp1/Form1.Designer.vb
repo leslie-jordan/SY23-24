@@ -65,6 +65,7 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.UserControl1 = New WindowsApp1.UserControl1()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -467,6 +468,15 @@ Partial Class Form1
         Me.Label13.TabIndex = 54
         Me.Label13.Text = "Dogs"
         '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(8, 65)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(110, 16)
+        Me.Label14.TabIndex = 99
+        Me.Label14.Text = "5 Dogs Available"
+        '
         'UserControl1
         '
         Me.UserControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -481,6 +491,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.UserControl1)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Button3)
@@ -577,4 +588,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Label13 As Label
     Friend WithEvents UserControl1 As UserControl1
+    Friend WithEvents Label14 As Label
 End Class
