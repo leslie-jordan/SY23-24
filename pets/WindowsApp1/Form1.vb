@@ -210,21 +210,31 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Label12.Visible = True
         If chihuahuaCheckBox.Checked And blackCheckBox.Checked And solidCheckBox.Checked And CheckBox1to10.Checked And puppyCheckBox.Checked = True Then
             'PictureBox1.Image = Image.FromFile("C:\")
             UserControl1.Visible = True
+            Label12.Visible = False
         End If
-        If germanshepardCheckBox.Checked And greyCheckBox.Checked = True Then
-            Label12.Visible = True
-            UserControl1.Visible = False
-        End If
-        If frenchbulldogCheckBox.Checked And whiteCheckBox.Checked = True Then
+        If chihuahuaCheckBox.Checked And brownCheckBox.Checked And solidCheckBox.Checked And CheckBox1to10.Checked And youngCheckBox.Checked = True Then
             'PictureBox1.Image = Image.FromFile("C:\")
             UserControl1.Visible = True
+            Label12.Visible = False
         End If
-        If goldenretrieverCheckBox.Checked And brownCheckBox.Checked = True Then
-            Label12.Visible = True
-            UserControl1.Visible = False
+        If germanshepardCheckBox.Checked And brownCheckBox.Checked And bicolorCheckBox.Checked And CheckBox70plus.Checked And adultCheckBox.Checked = True Then
+            'PictureBox1.Image = Image.FromFile("C:\")
+            UserControl1.Visible = True
+            Label12.Visible = False
+        End If
+        If frenchbulldogCheckBox.Checked And whiteCheckBox.Checked And spottedCheckBox.Checked And CheckBox10to40.Checked And youngCheckBox.Checked = True Then
+            'PictureBox1.Image = Image.FromFile("C:\")
+            UserControl1.Visible = True
+            Label12.Visible = False
+        End If
+        If goldenretrieverCheckBox.Checked And whiteCheckBox.Checked And solidCheckBox.Checked And CheckBox40to70.Checked And puppyCheckBox.Checked = True Then
+            'PictureBox1.Image = Image.FromFile("C:\")
+            UserControl1.Visible = True
+            Label12.Visible = False
         End If
     End Sub
 
