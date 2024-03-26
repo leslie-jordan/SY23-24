@@ -210,9 +210,9 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        UserControl1.Visible = True
-        If chihuahuaCheckBox.Checked And blackCheckBox.Checked = True Then
+        If chihuahuaCheckBox.Checked And blackCheckBox.Checked And solidCheckBox.Checked And CheckBox1to10.Checked And puppyCheckBox.Checked = True Then
             'PictureBox1.Image = Image.FromFile("C:\")
+            UserControl1.Visible = True
         End If
         If germanshepardCheckBox.Checked And greyCheckBox.Checked = True Then
             Label12.Visible = True
@@ -220,6 +220,7 @@
         End If
         If frenchbulldogCheckBox.Checked And whiteCheckBox.Checked = True Then
             'PictureBox1.Image = Image.FromFile("C:\")
+            UserControl1.Visible = True
         End If
         If goldenretrieverCheckBox.Checked And brownCheckBox.Checked = True Then
             Label12.Visible = True
