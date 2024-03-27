@@ -26,7 +26,6 @@ Partial Class Form2
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.UserControl1 = New WindowsApp1.UserControl1()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
@@ -70,6 +69,7 @@ Partial Class Form2
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.UserControl1 = New WindowsApp1.UserControl1()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -91,15 +91,6 @@ Partial Class Form2
         Me.Label12.TabIndex = 95
         Me.Label12.Text = "Cat Not Available"
         Me.Label12.Visible = False
-        '
-        'UserControl1
-        '
-        Me.UserControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.UserControl1.Location = New System.Drawing.Point(396, 299)
-        Me.UserControl1.Name = "UserControl1"
-        Me.UserControl1.Size = New System.Drawing.Size(243, 144)
-        Me.UserControl1.TabIndex = 94
-        Me.UserControl1.Visible = False
         '
         'Button2
         '
@@ -498,6 +489,15 @@ Partial Class Form2
         Me.ImageList1.Images.SetKeyName(2, "himalayan.png")
         Me.ImageList1.Images.SetKeyName(3, "greypersian.PNG")
         Me.ImageList1.Images.SetKeyName(4, "blackpersian.PNG")
+        '
+        'UserControl1
+        '
+        Me.UserControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.UserControl1.Location = New System.Drawing.Point(396, 299)
+        Me.UserControl1.Name = "UserControl1"
+        Me.UserControl1.Size = New System.Drawing.Size(243, 144)
+        Me.UserControl1.TabIndex = 94
+        Me.UserControl1.Visible = False
         '
         'Form2
         '
