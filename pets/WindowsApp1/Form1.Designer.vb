@@ -487,7 +487,7 @@ Partial Class Form1
         Me.ImageList1.Images.SetKeyName(0, "black-chihuahua-stands-against-grey-background.jpg")
         Me.ImageList1.Images.SetKeyName(1, "golen retrieverwhite.png")
         Me.ImageList1.Images.SetKeyName(2, "white spotted french bulldog.png")
-        Me.ImageList1.Images.SetKeyName(3, "browm bi color germ shep.png")
+        Me.ImageList1.Images.SetKeyName(3, "browm bi color germ shep (1).png")
         Me.ImageList1.Images.SetKeyName(4, "download (4).png")
         '
         'UserControl1
