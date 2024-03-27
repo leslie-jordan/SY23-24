@@ -22,6 +22,8 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -66,6 +68,7 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.UserControl1 = New WindowsApp1.UserControl1()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -477,6 +480,16 @@ Partial Class Form1
         Me.Label14.TabIndex = 99
         Me.Label14.Text = "5 Dogs Available"
         '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "black-chihuahua-stands-against-grey-background.jpg")
+        Me.ImageList1.Images.SetKeyName(1, "golen retrieverwhite.png")
+        Me.ImageList1.Images.SetKeyName(2, "white spotted french bulldog.png")
+        Me.ImageList1.Images.SetKeyName(3, "browm bi color germ shep.png")
+        Me.ImageList1.Images.SetKeyName(4, "download (4).png")
+        '
         'UserControl1
         '
         Me.UserControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -589,4 +602,5 @@ Partial Class Form1
     Friend WithEvents Label13 As Label
     Friend WithEvents UserControl1 As UserControl1
     Friend WithEvents Label14 As Label
+    Friend WithEvents ImageList1 As ImageList
 End Class

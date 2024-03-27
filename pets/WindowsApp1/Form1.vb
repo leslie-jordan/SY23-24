@@ -212,27 +212,27 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Label12.Visible = True
         If chihuahuaCheckBox.Checked And blackCheckBox.Checked And solidCheckBox.Checked And CheckBox1to10.Checked And puppyCheckBox.Checked = True Then
-            'PictureBox1.Image = Image.FromFile("C:\")
+            PictureBox1.Image = ImageList1.Images(4)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If chihuahuaCheckBox.Checked And brownCheckBox.Checked And solidCheckBox.Checked And CheckBox1to10.Checked And youngCheckBox.Checked = True Then
-            'PictureBox1.Image = Image.FromFile("C:\")
+            PictureBox1.Image = ImageList1.Images(0)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If germanshepardCheckBox.Checked And brownCheckBox.Checked And bicolorCheckBox.Checked And CheckBox70plus.Checked And adultCheckBox.Checked = True Then
-            'PictureBox1.Image = Image.FromFile("C:\")
+            PictureBox1.Image = ImageList1.Images(3)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If frenchbulldogCheckBox.Checked And whiteCheckBox.Checked And spottedCheckBox.Checked And CheckBox10to40.Checked And youngCheckBox.Checked = True Then
-            'PictureBox1.Image = Image.FromFile("C:\")
+            PictureBox1.Image = ImageList1.Images(2)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If goldenretrieverCheckBox.Checked And whiteCheckBox.Checked And solidCheckBox.Checked And CheckBox40to70.Checked And puppyCheckBox.Checked = True Then
-            'PictureBox1.Image = Image.FromFile("C:\")
+            PictureBox1.Image = ImageList1.Images(1)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
