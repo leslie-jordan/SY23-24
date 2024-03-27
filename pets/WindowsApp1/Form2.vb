@@ -211,27 +211,27 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Label12.Visible = True
         If mainecoonCheckBox.Checked And blackCheckBox.Checked And solidCheckBox.Checked And CheckBox15to20.Checked And adultCheckBox.Checked = True Then
-            PictureBox1.Image = Image.FromFile("C:\\Users\bling920\Downloads/black maine coon.jfif")
+            PictureBox1.Image = ImageList1.Images(0)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If persianCheckBox.Checked And greyCheckBox.Checked And solidCheckBox.Checked And CheckBox5to10.Checked And kittenCheckBox.Checked = True Then
-            PictureBox1.Image = Image.FromFile("C:\\Users\bling920\Downloads/grey persian cat.jfif")
+            PictureBox1.Image = ImageList1.Images(3)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If ragdollCheckBox.Checked And whiteCheckBox.Checked And bicolorCheckBox.Checked And CheckBox5to10.Checked And kittenCheckBox.Checked = True Then
-            'PictureBox1.Image = Image.FromFile("C:\Users\lajor965\Downloads\ragdoll-before-you-buy.jpg")
+            PictureBox1.Image = ImageList1.Images(1)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If himalayanCheckBox.Checked And brownCheckBox.Checked And solidCheckBox.Checked And CheckBox10to15.Checked And youngCheckBox.Checked = True Then
-            PictureBox1.Image = Image.FromFile("C:\\Users\bling920\Downloads/brown hamalayan.jfif")
+            PictureBox1.Image = ImageList1.Images(2)
             UserControl1.Visible = True
             Label12.Visible = False
         End If
         If persianCheckBox.Checked And blackCheckBox.Checked And solidCheckBox.Checked And CheckBox5to10.Checked And seniorCheckBox.Checked = True Then
-            PictureBox1.Image = Image.FromFile("C:\\Users\bling920\Downloads/black persian.jfif")
+            PictureBox1.Image = ImageList1.Images(4)
             UserControl1.Visible = True
             Label12.Visible = False
         End If

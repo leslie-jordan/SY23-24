@@ -22,6 +22,8 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.UserControl1 = New WindowsApp1.UserControl1()
@@ -67,6 +69,7 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -486,6 +489,16 @@ Partial Class Form2
         Me.Label14.TabIndex = 98
         Me.Label14.Text = "5 Cats Available"
         '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "black-Maine-Coon-cat_Shutterstock_Eric-Isselee.png")
+        Me.ImageList1.Images.SetKeyName(1, "ragdoll-before-you-buy (1).png")
+        Me.ImageList1.Images.SetKeyName(2, "himalayan.png")
+        Me.ImageList1.Images.SetKeyName(3, "greypersian.PNG")
+        Me.ImageList1.Images.SetKeyName(4, "blackpersian.PNG")
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -589,4 +602,5 @@ Partial Class Form2
     Friend WithEvents Label1 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
+    Friend WithEvents ImageList1 As ImageList
 End Class
