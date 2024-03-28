@@ -69,6 +69,7 @@ Partial Class Form1
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.UserControl1 = New WindowsApp1.UserControl1()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -445,11 +446,11 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(652, 280)
+        Me.Label12.Location = New System.Drawing.Point(664, 277)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(117, 16)
+        Me.Label12.Size = New System.Drawing.Size(91, 16)
         Me.Label12.TabIndex = 52
-        Me.Label12.Text = "Dog Not Available"
+        Me.Label12.Text = "0 Dogs Found"
         Me.Label12.Visible = False
         '
         'Button3
@@ -490,6 +491,15 @@ Partial Class Form1
         Me.ImageList1.Images.SetKeyName(3, "browm bi color germ shep (1).png")
         Me.ImageList1.Images.SetKeyName(4, "download (4).png")
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(599, 181)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(41, 16)
+        Me.Label15.TabIndex = 100
+        Me.Label15.Text = "Price:"
+        '
         'UserControl1
         '
         Me.UserControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -504,6 +514,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.UserControl1)
         Me.Controls.Add(Me.Label13)
@@ -603,4 +614,5 @@ Partial Class Form1
     Friend WithEvents UserControl1 As UserControl1
     Friend WithEvents Label14 As Label
     Friend WithEvents ImageList1 As ImageList
+    Friend WithEvents Label15 As Label
 End Class

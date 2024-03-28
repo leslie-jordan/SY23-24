@@ -242,4 +242,10 @@
         Form2.Show()
         Me.Hide()
     End Sub
+
+    Private Sub UserControl1_purchase() Handles UserControl1.purchase
+        If Label14.Text = "5 Dogs Available" Then
+            Label14.Text = "4 Dogs Available"
+        End If
+    End Sub
 End Class
