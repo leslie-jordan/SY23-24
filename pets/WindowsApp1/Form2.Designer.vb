@@ -70,6 +70,7 @@ Partial Class Form2
         Me.Label14 = New System.Windows.Forms.Label()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.UserControl1 = New WindowsApp1.UserControl1()
+        Me.Label15 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -85,11 +86,11 @@ Partial Class Form2
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(657, 280)
+        Me.Label12.Location = New System.Drawing.Point(675, 280)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(111, 16)
+        Me.Label12.Size = New System.Drawing.Size(85, 16)
         Me.Label12.TabIndex = 95
-        Me.Label12.Text = "Cat Not Available"
+        Me.Label12.Text = "0 Cats Found"
         Me.Label12.Visible = False
         '
         'Button2
@@ -499,11 +500,21 @@ Partial Class Form2
         Me.UserControl1.TabIndex = 94
         Me.UserControl1.Visible = False
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(604, 181)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(41, 16)
+        Me.Label15.TabIndex = 99
+        Me.Label15.Text = "Price:"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Button3)
@@ -603,4 +614,5 @@ Partial Class Form2
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents ImageList1 As ImageList
+    Friend WithEvents Label15 As Label
 End Class
