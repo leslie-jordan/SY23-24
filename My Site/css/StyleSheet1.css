@@ -1,0 +1,31 @@
+﻿body {
+    font-family:arial;
+}
+ .left {
+     position:absolute;
+     bottom:0;
+     left:10px;
+     color:cornflowerblue;
+     font-size:25px;
+ }
+
+.right {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+ h1 {
+     color:cornflowerblue;
+     font-size:50px
+ }
+
+ form {
+     font-size:20px;
+ }
+
+ .label {
+     color:cornflowerblue;
+ }
