@@ -8,6 +8,17 @@
 </head>
 <body>
     <form>
+        <script>
+            function toggleVisibility(id) {
+                var el = document.getElementById(id);
+                if (el.style.visibility == "visible") {
+                    el.style.visibility = "hidden";
+                }
+                else {
+                    el.style.visibility = "visible";
+                }
+            }
+        </script>
         <h1>Small Dogs</h1>
         <hr />
         <b><label>Breed:</label></b>
@@ -66,7 +77,6 @@
         <label for="Senior">Senior</label>
         <br />
         <br />
-        <input type="submit" value="Submit">
     </form>
     <br />
     <a class="left" href="HTMLPage1.html"> < Big Dogs</a>

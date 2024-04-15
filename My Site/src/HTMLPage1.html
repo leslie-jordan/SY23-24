@@ -8,67 +8,81 @@
 </head>
 <body>
     <form>
+        <script>
+            function toggleVisibility(id) {
+                var el = document.getElementById(id);
+                if (el.style.visibility == "visible") {
+                    el.style.visibility = "hidden";
+                }
+                else {
+                    el.style.visibility = "visible";
+                }
+            }
+        </script>
         <h1>Big Dogs</h1>
         <hr />
         <b><label>Breed:</label></b>
-        <input type="checkbox" name="Rottweiler" value="1" />
+        <input id="idk" type="checkbox" name="Rottweiler" value="Rottweiler" onChange="toggleVisibility('rottweilerimg');" />
         <label for="Rottweiler">Rottweiler</label>
 
-        <input type="checkbox" name="German Shepard" value="2" />
+        <input type="checkbox" name="German Shepard" value="German Shepard" onChange="toggleVisibility('germanshepardimg');" />
         <label for="German Shepard">German Shepard</label>
 
-        <input type="checkbox" name="Labrador Retriever" value="3" />
+        <input type="checkbox" name="Labrador Retriever" value="Labrador Retriever" onChange="toggleVisibility('labradorretrieverimg');" />
         <label for="Labrador Retriever">Labrador Retriever</label>
 
-        <input type="checkbox" name="Golden Retriever" value="4" />
+        <input type="checkbox" name="Golden Retriever" value="Golden Retriever" onChange="toggleVisibility('goldenretrieverimg');" />
         <label for="Golden Retriever">Golden Retriever</label>
         <br />
         <br />
         <b><label>Color:</label></b>
-        <input type="checkbox" name="Black" value="5" />
+        <input type="checkbox" name="Black" value="Black" />
         <label for="Black">Black</label>
 
-        <input type="checkbox" name="Gray" value="6" />
+        <input type="checkbox" name="Gray" value="Gray" />
         <label for="Gray">Gray</label>
 
-        <input type="checkbox" name="White" value="7" />
+        <input type="checkbox" name="White" value="White" />
         <label for="White">White</label>
 
-        <input type="checkbox" name="Brown" value="8" />
+        <input type="checkbox" name="Brown" value="Brown" />
         <label for="Brown">Brown</label>
         <br />
         <br />
         <b><label>Pattern:</label></b>
-        <input type="checkbox" name="Solid" value="9" />
+        <input type="checkbox" name="Solid" value="Solid" />
         <label for="Solid">Solid</label>
 
-        <input type="checkbox" name="Spotted" value="10" />
+        <input type="checkbox" name="Spotted" value="Spotted" />
         <label for="Spotted">Spotted</label>
 
-        <input type="checkbox" name="Bicolor" value="11" />
+        <input type="checkbox" name="Bicolor" value="Bicolor" />
         <label for="Bicolor">Bicolor</label>
 
-        <input type="checkbox" name="Tricolor" value="12" />
+        <input type="checkbox" name="Tricolor" value="Tricolor" />
         <label for="Tricolor">Tricolor</label>
         <br />
         <br />
         <b><label>Age:</label></b>
-        <input type="checkbox" name="Puppy" value="17" />
+        <input type="checkbox" name="Puppy" value="Puppy" />
         <label for="Puppy">Puppy</label>
 
-        <input type="checkbox" name="Young" value="18" />
+        <input type="checkbox" name="Young" value="Young" />
         <label for="Young">Young</label>
 
-        <input type="checkbox" name="Adult" value="19" />
+        <input type="checkbox" name="Adult" value="Adult" />
         <label for="Adult">Adult</label>
 
-        <input type="checkbox" name="Senior" value="20" />
+        <input type="checkbox" name="Senior" value="Senior" />
         <label for="Senior">Senior</label>
         <br />
         <br />
-        <input type="submit" value="Submit">
     </form>
     <br />
     <a class="right" href="HTMLPage2.html">Small Dogs ></a>
+    <img id="rottweilerimg" src="../img/rottweiler.png" style="visibility:hidden" />
+    <img id="germanshepardimg" src="../img/himalayan.png" style="visibility:hidden" />
+    <img id="labradorretrieverimg" src="../img/labaradorretriever.png" style="visibility:hidden" />
+    <img id="goldenretrieverimg" src="../img/himalayan.png" style="visibility:hidden" />
 </body>
 </html>
