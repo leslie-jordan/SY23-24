@@ -59,9 +59,15 @@
                 }
             }
         </script>
-        <h1>Cats</h1>
-        <hr />
-        <b><label>Breed:</label></b>
+        <div class="topnav">
+            <a id="title" href="#">Pet Store</a>
+            <a href="HTMLPage1.html">Big Dogs</a>
+            <a href="HTMLPage2.html">Small Dogs</a>
+            <a class="active" href="HTMLPage3.html">Cats</a>
+        </div>
+        <br />
+        <br />
+        <b><label class="select">Breed:</label></b>
         <input id="mainecoon" type="checkbox" name="Maine Coon" value="1" onclick="myFunction1()" onChange="toggleVisibility('mainecoonimg');" />
         <label for="Maine Coon">Maine Coon</label>
 
@@ -75,7 +81,7 @@
         <label for="Himalayan">Himalayan</label>
         <br />
         <br />
-        <b><label>Color:</label></b>
+        <b><label class="select">Color:</label></b>
         <input type="checkbox" name="Black" value="5" />
         <label for="Black">Black</label>
 
@@ -89,7 +95,7 @@
         <label for="Brown">Brown</label>
         <br />
         <br />
-        <b><label>Pattern:</label></b>
+        <b><label class="select">Pattern:</label></b>
         <input type="checkbox" name="Solid" value="9" />
         <label for="Solid">Solid</label>
 
@@ -103,7 +109,7 @@
         <label for="Tricolor">Tricolor</label>
         <br />
         <br />
-        <b><label>Weight:</label></b>
+        <b><label class="select">Weight:</label></b>
         <input type="checkbox" name="1-5" value="13" />
         <label for="1-5">1-5</label>
 
@@ -117,7 +123,7 @@
         <label for="70+">70+</label>
         <br />
         <br />
-        <b><label>Age:</label></b>
+        <b><label class="select">Age:</label></b>
         <input type="checkbox" name="Kitten" value="17" />
         <label for="Kitten">Kitten</label>
 
@@ -132,12 +138,12 @@
         <br />
         <br />
     </form>
+    <b><label class="select">Price:</label></b>
     <p id="text1" style="display:none">500$</p>
     <p id="text2" style="display:none">600$</p>
     <p id="text3" style="display:none">700$</p>
     <p id="text4" style="display:none">800$</p>
     <br />
-    <a class="left" href="HTMLPage2.html"> < Small Dogs</a>
     <img id="mainecoonimg" src="../img/tricolormainecoon.png" style="visibility:hidden" />
     <img id="persianimg" src="../img/bicolorpersian.png" style="visibility:hidden" />
     <img id="ragdollimg" src="../img/brownragdoll.png" style="visibility:hidden" />

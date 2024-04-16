@@ -1,20 +1,33 @@
-﻿body {
-    font-family:arial;
+﻿.topnav {
+    background-color: cornflowerblue;
+    overflow: hidden;
 }
- .left {
-     position:absolute;
-     bottom:0;
-     left:10px;
-     color:cornflowerblue;
-     font-size:25px;
- }
 
-.right {
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    color: cornflowerblue;
-    font-size: 25px;
+    .topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #87aef5;
+            color: white;
+        }
+
+       #title {
+           font-size:34px;
+       }
+
+body {
+    font-family:arial;
 }
 
  h1 {
@@ -26,8 +39,17 @@
      font-size:20px;
  }
 
- .label {
-     color:cornflowerblue;
+ .select {
+     color:cornflowerblue
+     
+ }
+
+ label.select {
+     font-size:20px
+ }
+
+ p {
+     font-size:50px
  }
 
 #chihuahuaimg {

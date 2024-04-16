@@ -59,9 +59,15 @@
                 }
             }
         </script>
-        <h1>Small Dogs</h1>
-        <hr />
-        <b><label>Breed:</label></b>
+        <div class="topnav">
+            <a id="title" href="#">Pet Store</a>
+            <a href="HTMLPage1.html">Big Dogs</a>
+            <a class="active" href="HTMLPage2.html">Small Dogs</a>
+            <a href="HTMLPage3.html">Cats</a>
+        </div>
+        <br />
+        <br />
+        <b><label class="select">Breed:</label></b>
         <input id="chihuahua" type="checkbox" name="Chihuahua" value="1" onclick="myFunction1()" onChange="toggleVisibility('chihuahuaimg');" />
         <label for="Chihuahua">Chihuahua</label>
 
@@ -75,7 +81,7 @@
         <label for="Pug">Pug</label>
         <br />
         <br />
-        <b><label>Color:</label></b>
+        <b><label class="select">Color:</label></b>
         <input type="checkbox" name="Black" value="5" />
         <label for="Black">Black</label>
 
@@ -89,7 +95,7 @@
         <label for="Brown">Brown</label>
         <br />
         <br />
-        <b><label>Pattern:</label></b>
+        <b><label class="select">Pattern:</label></b>
         <input type="checkbox" name="Solid" value="9" />
         <label for="Solid">Solid</label>
 
@@ -103,7 +109,7 @@
         <label for="Tricolor">Tricolor</label>
         <br />
         <br />
-        <b><label>Age:</label></b>
+        <b><label class="select">Age:</label></b>
         <input type="checkbox" name="Puppy" value="17" />
         <label for="Puppy">Puppy</label>
 
@@ -118,13 +124,12 @@
         <br />
         <br />
     </form>
+    <b><label class="select">Price:</label></b>
     <p id="text1" style="display:none">500$</p>
     <p id="text2" style="display:none">600$</p>
     <p id="text3" style="display:none">700$</p>
     <p id="text4" style="display:none">800$</p>
     <br />
-    <a class="left" href="HTMLPage1.html"> < Big Dogs</a>
-    <a class="right" href="HTMLPage3.html">Cats ></a>
     <img id="chihuahuaimg" src="../img/chihuahua.png" style="visibility:hidden" />
     <img id="frenchbulldogimg" src="../img/whitespottedfrenchbulldog.png" style="visibility:hidden" />
     <img id="cockerspanielimg" src="../img/cockerspaniel.png" style="visibility:hidden" />
