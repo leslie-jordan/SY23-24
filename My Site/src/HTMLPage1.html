@@ -18,20 +18,60 @@
                     el.style.visibility = "visible";
                 }
             }
+
+            function myFunction1() {
+                var checkBox = document.getElementById("rottweiler");
+                var text = document.getElementById("text1");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction2() {
+                var checkBox = document.getElementById("germanshepard");
+                var text = document.getElementById("text2");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction3() {
+                var checkBox = document.getElementById("lab");
+                var text = document.getElementById("text3");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction4() {
+                var checkBox = document.getElementById("golden");
+                var text = document.getElementById("text4");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
         </script>
         <h1>Big Dogs</h1>
         <hr />
         <b><label>Breed:</label></b>
-        <input id="idk" type="checkbox" name="Rottweiler" value="Rottweiler" onChange="toggleVisibility('rottweilerimg');" />
+        <input id="rottweiler" type="checkbox" name="Rottweiler" value="Rottweiler" onclick="myFunction1()" onChange="toggleVisibility('rottweilerimg');" />
         <label for="Rottweiler">Rottweiler</label>
 
-        <input type="checkbox" name="German Shepard" value="German Shepard" onChange="toggleVisibility('germanshepardimg');" />
+        <input id="germanshepard" type="checkbox" name="German Shepard" value="German Shepard" onclick="myFunction2()" onChange="toggleVisibility('germanshepardimg');" />
         <label for="German Shepard">German Shepard</label>
 
-        <input type="checkbox" name="Labrador Retriever" value="Labrador Retriever" onChange="toggleVisibility('labradorretrieverimg');" />
+        <input id="lab" type="checkbox" name="Labrador Retriever" value="Labrador Retriever" onclick="myFunction3()" onChange="toggleVisibility('labradorretrieverimg');" />
         <label for="Labrador Retriever">Labrador Retriever</label>
 
-        <input type="checkbox" name="Golden Retriever" value="Golden Retriever" onChange="toggleVisibility('goldenretrieverimg');" />
+        <input id="golden" type="checkbox" name="Golden Retriever" value="Golden Retriever" onclick="myFunction4()" onChange="toggleVisibility('goldenretrieverimg');" />
         <label for="Golden Retriever">Golden Retriever</label>
         <br />
         <br />
@@ -78,11 +118,15 @@
         <br />
         <br />
     </form>
+    <p id="text1" style="display:none">500$</p>
+    <p id="text2" style="display:none">600$</p>
+    <p id="text3" style="display:none">700$</p>
+    <p id="text4" style="display:none">800$</p>
     <br />
     <a class="right" href="HTMLPage2.html">Small Dogs ></a>
     <img id="rottweilerimg" src="../img/rottweiler.png" style="visibility:hidden" />
-    <img id="germanshepardimg" src="../img/himalayan.png" style="visibility:hidden" />
-    <img id="labradorretrieverimg" src="../img/labaradorretriever.png" style="visibility:hidden" />
-    <img id="goldenretrieverimg" src="../img/himalayan.png" style="visibility:hidden" />
+    <img id="germanshepardimg" src="../img/germanshepard.png" style="visibility:hidden" />
+    <img id="labradorretrieverimg" src="../img/labradorretriever.png" style="visibility:hidden" />
+    <img id="goldenretrieverimg" src="../img/goldenretrieverwhite.png" style="visibility:hidden" />
 </body>
 </html>

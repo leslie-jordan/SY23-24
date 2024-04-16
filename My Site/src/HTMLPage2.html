@@ -18,20 +18,60 @@
                     el.style.visibility = "visible";
                 }
             }
+
+            function myFunction1() {
+                var checkBox = document.getElementById("chihuahua");
+                var text = document.getElementById("text1");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction2() {
+                var checkBox = document.getElementById("frenchbulldog");
+                var text = document.getElementById("text2");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction3() {
+                var checkBox = document.getElementById("cockerspaniel");
+                var text = document.getElementById("text3");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction4() {
+                var checkBox = document.getElementById("pug");
+                var text = document.getElementById("text4");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
         </script>
         <h1>Small Dogs</h1>
         <hr />
         <b><label>Breed:</label></b>
-        <input type="checkbox" name="Chihuahua" value="1" />
+        <input id="chihuahua" type="checkbox" name="Chihuahua" value="1" onclick="myFunction1()" onChange="toggleVisibility('chihuahuaimg');" />
         <label for="Chihuahua">Chihuahua</label>
 
-        <input type="checkbox" name="French Bulldog" value="2" />
+        <input id="frenchbulldog" type="checkbox" name="French Bulldog" value="2" onclick="myFunction2()" onChange="toggleVisibility('frenchbulldogimg');" />
         <label for="French Bulldog">French Bulldog</label>
 
-        <input type="checkbox" name="Cocker Spaniel" value="3" />
+        <input id="cockerspaniel" type="checkbox" name="Cocker Spaniel" value="3" onclick="myFunction3()" onChange="toggleVisibility('cockerspanielimg');" />
         <label for="Cocker Spaniel">Cocker Spaniel</label>
 
-        <input type="checkbox" name="Pug" value="4" />
+        <input id="pug" type="checkbox" name="Pug" value="4" onclick="myFunction4()" onChange="toggleVisibility('pugimg');" />
         <label for="Pug">Pug</label>
         <br />
         <br />
@@ -78,8 +118,16 @@
         <br />
         <br />
     </form>
+    <p id="text1" style="display:none">500$</p>
+    <p id="text2" style="display:none">600$</p>
+    <p id="text3" style="display:none">700$</p>
+    <p id="text4" style="display:none">800$</p>
     <br />
     <a class="left" href="HTMLPage1.html"> < Big Dogs</a>
     <a class="right" href="HTMLPage3.html">Cats ></a>
+    <img id="chihuahuaimg" src="../img/chihuahua.png" style="visibility:hidden" />
+    <img id="frenchbulldogimg" src="../img/whitespottedfrenchbulldog.png" style="visibility:hidden" />
+    <img id="cockerspanielimg" src="../img/cockerspaniel.png" style="visibility:hidden" />
+    <img id="pugimg" src="../img/pug.png" style="visibility:hidden" />
 </body>
 </html>

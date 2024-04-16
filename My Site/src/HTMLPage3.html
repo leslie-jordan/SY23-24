@@ -18,20 +18,60 @@
                     el.style.visibility = "visible";
                 }
             }
+
+            function myFunction1() {
+                var checkBox = document.getElementById("mainecoon");
+                var text = document.getElementById("text1");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction2() {
+                var checkBox = document.getElementById("persian");
+                var text = document.getElementById("text2");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction3() {
+                var checkBox = document.getElementById("ragdoll");
+                var text = document.getElementById("text3");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+
+            function myFunction4() {
+                var checkBox = document.getElementById("himalayan");
+                var text = document.getElementById("text4");
+                if (checkBox.checked == true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
         </script>
         <h1>Cats</h1>
         <hr />
         <b><label>Breed:</label></b>
-        <input type="checkbox" name="Maine Coon" value="1" />
+        <input id="mainecoon" type="checkbox" name="Maine Coon" value="1" onclick="myFunction1()" onChange="toggleVisibility('mainecoonimg');" />
         <label for="Maine Coon">Maine Coon</label>
 
-        <input type="checkbox" name="Persian" value="2" />
+        <input id="persian" type="checkbox" name="Persian" value="2" onclick="myFunction2()" onChange="toggleVisibility('persianimg');" />
         <label for="Persian">Persian</label>
 
-        <input type="checkbox" name="Ragdoll" value="3" />
+        <input id="ragdoll" type="checkbox" name="Ragdoll" value="3" onclick="myFunction3()" onChange="toggleVisibility('ragdollimg');" />
         <label for="Ragdoll">Ragdoll</label>
 
-        <input type="checkbox" name="Himalayan" value="4" />
+        <input id="himalayan" type="checkbox" name="Himalayan" value="4" onclick="myFunction4()" onChange="toggleVisibility('himalayanimg');" />
         <label for="Himalayan">Himalayan</label>
         <br />
         <br />
@@ -92,7 +132,15 @@
         <br />
         <br />
     </form>
+    <p id="text1" style="display:none">500$</p>
+    <p id="text2" style="display:none">600$</p>
+    <p id="text3" style="display:none">700$</p>
+    <p id="text4" style="display:none">800$</p>
     <br />
     <a class="left" href="HTMLPage2.html"> < Small Dogs</a>
+    <img id="mainecoonimg" src="../img/tricolormainecoon.png" style="visibility:hidden" />
+    <img id="persianimg" src="../img/bicolorpersian.png" style="visibility:hidden" />
+    <img id="ragdollimg" src="../img/brownragdoll.png" style="visibility:hidden" />
+    <img id="himalayanimg" src="../img/himalayan.png" style="visibility:hidden" />
 </body>
 </html>
