@@ -1,0 +1,33 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMyPaint2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Slider x:Name="heightSlider" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="120"/>
+        <Slider x:Name="widthSlider" HorizontalAlignment="Left" Margin="10,332,0,0" VerticalAlignment="Top" Width="120"/>
+        <Rectangle x:Name="color1" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="Red"/>
+        <Canvas x:Name="drawingcanvas" Margin="390,0,10,0" Height="401" Width="401">
+            <Rectangle x:Name="rectangle1" Height="401" Stroke="Black" Width="401" Fill="#FF7B7B7B" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Canvas>
+        <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="10,392,0,0" VerticalAlignment="Top" Height="32" Width="69" Click="Button_Click"/>
+        <Button x:Name="undoButton" Content="Undo" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Height="32" Width="69" Click="Button_Click"/>
+        <Label x:Name="shapeLabel" Content="" HorizontalAlignment="Left" Margin="15,53,0,0" VerticalAlignment="Top"/>
+        <Button Content="Ellipse" HorizontalAlignment="Left" Margin="11,91,0,0" VerticalAlignment="Top" Height="28" Width="69" Click="Button_Click_2"/>
+        <Button Content="Rectangle" HorizontalAlignment="Left" Margin="11,124,0,0" VerticalAlignment="Top" Height="28" Width="69" Click="Button_Click_2"/>
+        <Slider x:Name="angleSlider" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Width="120" Maximum="360"/>
+        <Rectangle x:Name="color1_Copy" HorizontalAlignment="Left" Height="30" Margin="45,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FFFFF900"/>
+        <Rectangle x:Name="color1_Copy1" HorizontalAlignment="Left" Height="30" Margin="80,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FF00FF2B"/>
+        <Rectangle x:Name="color1_Copy2" HorizontalAlignment="Left" Height="30" Margin="115,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FF002BFF"/>
+        <Rectangle x:Name="grad1" HorizontalAlignment="Left" Height="30" Margin="10,240,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="Red"/>
+        <Rectangle x:Name="grad2" HorizontalAlignment="Left" Height="30" Margin="50,240,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FF00FFD1"/>
+        <Button x:Name="saveButton" Content="Save" HorizontalAlignment="Left" Margin="95,369,0,0" VerticalAlignment="Top" Height="36" Width="70"/>
+        <Slider x:Name="r" HorizontalAlignment="Left" Margin="253,71,0,0" VerticalAlignment="Top" Width="120" Maximum="255"/>
+        <Slider x:Name="g" HorizontalAlignment="Left" Margin="253,100,0,0" VerticalAlignment="Top" Width="120" Maximum="255"/>
+        <Slider x:Name="b" HorizontalAlignment="Left" Margin="253,134,0,0" VerticalAlignment="Top" Width="120" Maximum="255"/>
+
+    </Grid>
+</Window>

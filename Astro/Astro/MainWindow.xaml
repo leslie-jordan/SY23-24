@@ -1,0 +1,28 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Astro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Calendar x:Name="Calendar1" HorizontalAlignment="Left" Margin="125,82,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Button1" Content="Button" HorizontalAlignment="Left" Margin="264,258,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label1" Content="" HorizontalAlignment="Left" Margin="125,255,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="monthLabel" Content="" HorizontalAlignment="Left" Margin="125,286,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="PictureBox1"  HorizontalAlignment="Left" Height="100" Margin="492,166,0,0" VerticalAlignment="Top" Width="100" Source="/Pisces_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox2"  HorizontalAlignment="Left" Height="100" Margin="492,0,0,0" VerticalAlignment="Center" Width="100" Source="/Aries_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox3"  HorizontalAlignment="Left" Height="100" Margin="492,0,0,0" VerticalAlignment="Center" Width="100" Source="/Taurus_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox4"  HorizontalAlignment="Left" Height="100" Margin="492,0,0,0" VerticalAlignment="Center" Width="100" Source="/Gemini_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox5"  HorizontalAlignment="Left" Height="100" Margin="492,0,0,0" VerticalAlignment="Center" Width="100" Source="/Cancer_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox6"  HorizontalAlignment="Left" Height="100" Margin="492,0,0,0" VerticalAlignment="Center" Width="100" Source="/Leo_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox7"  HorizontalAlignment="Left" Height="100" Margin="492,0,0,0" VerticalAlignment="Center" Width="100" Source="/Virgo_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox8"  HorizontalAlignment="Left" Height="100" Margin="492,0,0,0" VerticalAlignment="Center" Width="100" Source="/Libra_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox9"  HorizontalAlignment="Left" Height="100" Margin="473,150,0,0" VerticalAlignment="Top" Width="100" Source="/Scorpius_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox10"  HorizontalAlignment="Left" Height="100" Margin="473,150,0,0" VerticalAlignment="Top" Width="100" Source="/Sagittarius_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox11"  HorizontalAlignment="Left" Height="100" Margin="492,150,0,0" VerticalAlignment="Top" Width="100" Source="/Capricornus_symbol_(bold).svg.png" Opacity="0"/>
+        <Image x:Name="PictureBox12"  HorizontalAlignment="Left" Height="100" Margin="473,150,0,0" VerticalAlignment="Top" Width="100" Source="/Aquarius_symbol_(bold).svg.png" Opacity="0"/>
+
+    </Grid>
+</Window>
